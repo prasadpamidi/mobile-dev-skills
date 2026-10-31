@@ -1,17 +1,30 @@
 # Mobile Dev Skills
 
-A curated collection of installable Agent Skills for designing and building mobile apps. Each skill
-is independent, so install only the guidance you need. Skills use the shared `SKILL.md` format and
-work with Codex and Claude Code.
+A modular marketplace of portable Agent Skills for the full mobile app development lifecycle. The
+collection is broad; each installable skill has a focused job, so people can pick only what they
+need. Skills use the shared `SKILL.md` format and work with Codex and Claude Code.
+
+## What belongs here
+
+- Product shaping and mobile UI/UX design
+- Native iOS development with SwiftUI and UIKit
+- Native Android development with Jetpack Compose and Views
+- Cross-platform development with React Native, Flutter, and related stacks
+- App architecture, data and service integration, and platform capabilities
+- Accessibility, testing, debugging, performance, security, release, and maintenance
+
+These are areas for the catalog, not one all-purpose skill. Add each skill when it has a clear,
+reusable workflow of its own.
 
 ## Available skills
 
-| Skill | What it helps with | Install name |
-| --- | --- | --- |
-| [Mobile App Design](skills/mobile-app-design/SKILL.md) | Design, implement, redesign, and review iOS and Android app screens across SwiftUI, UIKit, Jetpack Compose, and React Native. | `mobile-app-design` |
+| Area | Skill | What it helps with | Install name |
+| --- | --- | --- | --- |
+| Design | [Mobile App Design](skills/mobile-app-design/SKILL.md) | Design, implement, redesign, and review mobile screens and flows with native platform behavior in mind. | `mobile-app-design` |
 
-More skills can be added under `skills/<skill-name>/SKILL.md`. The installer lists available skills
-and lets you select one by name or choose from a menu.
+`mobile-app-design` is the first focused listing, not the name or full scope of the marketplace.
+Add more installable skills under `skills/<skill-name>/SKILL.md`. The installer lists available
+skills and lets people choose one by name or from a menu.
 
 ## Install one skill
 
@@ -51,6 +64,5 @@ redistributing or combining its contents. The first skill adapts selected princi
 
 ## Maintainers
 
-Keep the collection focused on mobile app design and implementation. Prefer a new skill when it has
-a distinct job and its own workflow; keep related platform notes together as references when they
-share the same goal.
+Keep the collection focused on mobile app development. Prefer a new skill when it has a distinct job
+and its own workflow; keep closely related notes together as references when they share the same goal.
