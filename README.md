@@ -9,7 +9,6 @@ need. Skills use the shared `SKILL.md` format and work with Codex and Claude Cod
 - Product shaping and mobile UI/UX design
 - Native iOS development with SwiftUI and UIKit
 - Native Android development with Jetpack Compose and Views
-- Cross-platform development with React Native, Flutter, and related stacks
 - App architecture, data and service integration, and platform capabilities
 - Accessibility, testing, debugging, performance, security, release, and maintenance
 
