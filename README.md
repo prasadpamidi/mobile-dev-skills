@@ -20,6 +20,7 @@ reusable workflow of its own.
 | Area | Skill | What it helps with | Install name |
 | --- | --- | --- | --- |
 | Design | [Mobile App Design](skills/mobile-app-design/SKILL.md) | Design, implement, redesign, and review mobile screens and flows with native platform behavior in mind. | `mobile-app-design` |
+| Maintenance | [Dev Disk Cleanup](skills/dev-disk-cleanup/SKILL.md) | Reclaim disk space on a macOS dev machine: merged worktrees, DerivedData, temp builds, simulators, and caches, with a confirmation before each deletion. | `dev-disk-cleanup` |
 
 `mobile-app-design` is the first focused listing, not the name or full scope of the marketplace.
 Add more installable skills under `skills/<skill-name>/SKILL.md`. The installer lists available
